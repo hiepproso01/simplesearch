@@ -7,7 +7,7 @@ const App = () => {
   const [results, setResults] = useState([]);
 
   const searchWithSerpAPI = async () => {
-    const apiKey = 'YOU_KEY_SERPAPI'; //Replace your serpapi key
+    const apiKey = 'YOUR_KEY_SERPAPI'; //Replace your serpapi key
     try {
       const response = await axios.get(`https://serpapi.com/search.json`, {
         params: {
